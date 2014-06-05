@@ -1,0 +1,106 @@
+body {
+    background-color: #f5f5f5;
+}
+
+
+#Contenedor {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #bfbfbf;
+}
+
+
+
+#imglogo {
+    min-width: 30%;
+    margin: 0 auto;
+}
+
+
+
+
+nav ul {
+    font-size: 0;
+    padding: 0;
+    background: #1d3d04;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 0;
+    vertical-align: top;
+    width: 25%;
+}
+
+nav ul li:hover {
+    background: #360;
+    color: #B7E43F;
+}
+
+nav ul li img {
+    height: 50px;
+}
+
+nav ul li a {
+    color: #DDD;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#Rodillas {
+    text-align: center;
+}
+
+#Rodillas article {
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    color: #65a606;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    background-color: #fcfcfc;
+}
+
+#Rodillas article img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 2%;
+}
+
+article {
+    display: inline-block;
+}
+
+
+
+#Rodillas article:hover {
+    cursor: pointer;
+    color: #1d3d04;
+}
+
+
+@media screen and (max-width:480px) {
+    #imglogo {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    #imglogo {
+        width: 300px;
+    }
+}
+
+
